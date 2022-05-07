@@ -7,6 +7,7 @@ import { gestureHandlerRootHOC } from "react-native-gesture-handler";
 
 import { theme } from "../../theme";
 import { styles } from "./styles";
+import { Copyright } from "../Copyright";
 
 function Widget() {
   const bottomSheetRef = useRef<BottomSheet>(null);
@@ -31,7 +32,7 @@ function Widget() {
         backgroundStyle={styles.modal}
         handleIndicatorStyle={styles.indicator}
       >
-        
+       <Copyright />
       </BottomSheet>
     </>
   );
