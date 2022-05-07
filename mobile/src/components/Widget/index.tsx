@@ -1,6 +1,6 @@
 //rnbc
 import React, { useRef } from "react";
-import { TouchableOpacity } from "react-native";
+import { TouchableOpacity, View } from "react-native";
 import { ChatTeardropDots } from "phosphor-react-native";
 import BottomSheet from "@gorhom/bottom-sheet";
 import { gestureHandlerRootHOC } from "react-native-gesture-handler";
@@ -28,8 +28,11 @@ function Widget() {
       <BottomSheet
         ref={bottomSheetRef}
         snapPoints={[1, 280]}
-        children={undefined}
-      ></BottomSheet>
+        backgroundStyle={styles.modal}
+        handleIndicatorStyle={styles.indicator}
+      >
+        
+      </BottomSheet>
     </>
   );
 }
