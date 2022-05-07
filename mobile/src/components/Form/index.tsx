@@ -45,7 +45,7 @@ export function Form({ feedbackType }: Props) {
         <ScreenshotButton
           onTakeShot={() => {}}
           onRemoveShot={() => {}}
-          screenshot=""
+          screenshot = "https://github.com/laerthnardelli.png"
         />
         <Button isLoading={false} />
       </View>
