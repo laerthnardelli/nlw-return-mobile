@@ -1,9 +1,9 @@
-
 import React from "react";
 import { TouchableOpacity, View, Text, Image, TextInput } from "react-native";
 import { ArrowLeft } from "phosphor-react-native";
 
 import { FeedbackType } from "../Widget";
+import { ScreenshotButton } from "../ScreenshotButton";
 import { theme } from "../../theme";
 import { feedbackTypes } from "../../utils/feedbackTypes";
 
@@ -39,6 +39,14 @@ export function Form({ feedbackType }: Props) {
         placeholderTextColor={theme.colors.text_secondary}
         autoCorrect={false}
       />
+
+      <View style={styles.footer}>
+        <ScreenshotButton
+          onTakeShot={() => {}}
+          onRemoveShot={() => {}}
+          screenshot=""
+        />
+      </View>
     </View>
   );
 }
