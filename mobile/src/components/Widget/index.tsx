@@ -30,6 +30,10 @@ function Widget() {
     setFeedbackSent(false);
   }
 
+  function handleFeedbackSent() {
+    setFeedbackSent(true);
+  }
+
   return (
     <>
       <TouchableOpacity style={styles.button} onPress={handleOpen}>
@@ -47,13 +51,14 @@ function Widget() {
         handleIndicatorStyle={styles.indicator}
       >
         {feedbackSent ? (
-          <Success />
+          <Success onSendAnotherFeedback={handleRestartFeedback} />
         ) : (
           <>
             {feedbackType ? (
               <Form
                 feedbackType={feedbackType}
                 onFeedbackCanceled={handleRestartFeedback}
+                onFeedbackSent={handleFeedbackSent}
               />
             ) : (
               <Options onFeedbackTypeChanged={setFeedbackType} />
