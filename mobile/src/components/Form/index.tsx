@@ -24,8 +24,8 @@ export function Form({
   onFeedbackCanceled,
   onFeedbackSent,
 }: Props) {
-  const [screenshot, setScreenshot] = useState<string | null>(null);
   const [isSendingFeedback, setIsSendingFeedback] = useState(false);
+  const [screenshot, setScreenshot] = useState<string | null>(null);
   const [comment, setComment] = useState("");
 
   const feedbackTypeInfo = feedbackTypes[feedbackType];
@@ -33,7 +33,7 @@ export function Form({
   function handleScreenshot() {
     captureScreen({
       format: "jpg",
-      quality: 0.8,
+      quality: 0.1,
     })
       .then((uri) => {
         //console.log(uri);
@@ -55,9 +55,7 @@ export function Form({
 
     const screenshotBase64 =
       screenshot &&
-      (await FileSystem.readAsStringAsync(screenshot, {
-        encoding: "base64",
-      }));
+      (await FileSystem.readAsStringAsync(screenshot, { encoding: "base64" }));
 
     try {
       await api.post("/feedbacks", {
@@ -89,6 +87,7 @@ export function Form({
           <Text style={styles.titleText}>{feedbackTypeInfo.title}</Text>
         </View>
       </View>
+
       <TextInput
         multiline
         style={styles.input}
@@ -104,6 +103,7 @@ export function Form({
           onRemoveShot={handleScreenshotRemove}
           screenshot={screenshot}
         />
+
         <Button onPress={handleSendFeedback} isLoading={isSendingFeedback} />
       </View>
     </View>

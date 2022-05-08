@@ -15,6 +15,7 @@ export function Options({ onFeedbackTypeChanged }: Props) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Deixe seu feedback</Text>
+
       <View style={styles.options}>
         {Object.entries(feedbackTypes).map(([key, value]) => (
           <Option
@@ -25,6 +26,7 @@ export function Options({ onFeedbackTypeChanged }: Props) {
           />
         ))}
       </View>
+
       <Copyright />
     </View>
   );
