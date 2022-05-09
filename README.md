@@ -26,5 +26,6 @@ Tecnologias Utilizadas: <br/>
 Iniciar App Mobile:<br/>
 * cd mobile<br/>
 * Alterar o baseURL no src/lib/api para seu ip (ex: baseURL: "http://192.168.1.10:3333")<br/>
+* Digitar no terminal "ipconfig" para pegar seu ip.
 * expo start<br/>
 * Acesse pelo aplicativo Expo Go (baixar na loja)<br/>
