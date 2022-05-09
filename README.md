@@ -12,18 +12,18 @@ Após o envio do feedback, será registrado no banco de dados, e enviado um e-ma
 ![feedback 04](https://user-images.githubusercontent.com/54412289/167441374-efd2d851-c89f-4fae-8253-aba26065f83c.jpeg)
 ![feedback 05](https://user-images.githubusercontent.com/54412289/167441381-01ff53c0-7c69-42e1-a3f7-ca92d451b4c5.jpeg)
 
-Tecnologias Utilizadas:
+Tecnologias Utilizadas: <br/>
 
-ExpoGo
-Typescript
-expo google-fonts
-icons com phosphor-react-native
-react-native-svg
-@gorhom/bottom-sheet
+ExpoGo<br/>
+Typescript<br/>
+expo google-fonts<br/>
+icons com phosphor-react-native<br/>
+react-native-svg<br/>
+@gorhom/bottom-sheet<br/>
 
 
-Iniciar App Mobile:
-cd mobile
-Alterar o baseURL no src/lib/api para seu ip (ex: baseURL: "http://192.168.1.10:3333")
-expo start
-Acesse pelo aplicativo Expo Go (baixar na loja)
+Iniciar App Mobile:<br/>
+cd mobile<br/>
+Alterar o baseURL no src/lib/api para seu ip (ex: baseURL: "http://192.168.1.10:3333")<br/>
+expo start<br/>
+Acesse pelo aplicativo Expo Go (baixar na loja)<br/>
