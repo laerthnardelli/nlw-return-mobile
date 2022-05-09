@@ -1,10 +1,10 @@
-# Projeto Next Level Week 8 - Return
+Projeto Next Level Week 8 - Return
 
 ![nlw-return](https://user-images.githubusercontent.com/54412289/167441675-afc0a10c-8385-475f-9c2e-dd373a7171f3.png)
 
 
-O projeto do evento, tem a finalidade de um botão flutuante de enviar feedback com comentário e uma screenshot da tela. O feedback pode ser represendado por Problema, ideia, ou Outro.
-Após o envio do feedback, será registrado no banco de dados, e enviado um e-mail para o responsável da aplicação.
+O projeto do evento, tem a finalidade de um botão flutuante de enviar feedback, com comentário e uma screenshot da tela. O feedback pode ser represendado por Problema, ideia, ou Outro.
+Após o envio do feedback, será registrado no banco de dados, e enviado um e-mail para o responsável da aplicação.<br/>
 Esse evento foi ministrado pela **[@Rocketseat](https://github.com/Rocketseat)**
 
 ![feedback 01](https://user-images.githubusercontent.com/54412289/167441327-d19c3f39-e99d-4656-ad75-11b3d60d0fdb.jpeg)
@@ -15,10 +15,11 @@ Esse evento foi ministrado pela **[@Rocketseat](https://github.com/Rocketseat)**
 
 Tecnologias Utilizadas: <br/>
 
+* React Native
 * ExpoGo<br/>
 * Typescript<br/>
 * expo google-fonts<br/>
-* icons com phosphor-react-native<br/>
+* icons usando lib phosphor-react-native<br/>
 * react-native-svg<br/>
 * @gorhom/bottom-sheet<br/>
 
