@@ -5,6 +5,7 @@
 
 O projeto do evento, tem a finalidade de um botão flutuante de enviar feedback com comentário e uma screenshot da tela. O feedback pode ser represendado por Problema, ideia, ou Outro.
 Após o envio do feedback, será registrado no banco de dados, e enviado um e-mail para o responsável da aplicação.
+Esse evento foi ministrado pela **[@Rocketseat](https://github.com/Rocketseat)**
 
 ![feedback 01](https://user-images.githubusercontent.com/54412289/167441327-d19c3f39-e99d-4656-ad75-11b3d60d0fdb.jpeg)
 ![feedback 02](https://user-images.githubusercontent.com/54412289/167441343-ebce97a9-b4c1-4806-b0dd-bce72a609400.jpeg)
@@ -14,16 +15,16 @@ Após o envio do feedback, será registrado no banco de dados, e enviado um e-ma
 
 Tecnologias Utilizadas: <br/>
 
-ExpoGo<br/>
-Typescript<br/>
-expo google-fonts<br/>
-icons com phosphor-react-native<br/>
-react-native-svg<br/>
-@gorhom/bottom-sheet<br/>
+* ExpoGo<br/>
+* Typescript<br/>
+* expo google-fonts<br/>
+* icons com phosphor-react-native<br/>
+* react-native-svg<br/>
+* @gorhom/bottom-sheet<br/>
 
 
 Iniciar App Mobile:<br/>
-cd mobile<br/>
-Alterar o baseURL no src/lib/api para seu ip (ex: baseURL: "http://192.168.1.10:3333")<br/>
-expo start<br/>
-Acesse pelo aplicativo Expo Go (baixar na loja)<br/>
+* cd mobile<br/>
+* Alterar o baseURL no src/lib/api para seu ip (ex: baseURL: "http://192.168.1.10:3333")<br/>
+* expo start<br/>
+* Acesse pelo aplicativo Expo Go (baixar na loja)<br/>
