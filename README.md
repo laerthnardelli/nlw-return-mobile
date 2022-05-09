@@ -30,3 +30,6 @@ Iniciar App Mobile:<br/>
 * Digitar no terminal "ipconfig" para pegar seu ip.
 * expo start<br/>
 * Acesse pelo aplicativo Expo Go (baixar na loja)<br/>
+
+repositório frontend web: https://github.com/laerthnardelli/nlw-return-web <br/>
+repositório brackend api: https://github.com/laerthnardelli/nlw-return-api  <br/>
